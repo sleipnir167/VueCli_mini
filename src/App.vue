@@ -2,7 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/HeaderBody">HeaderBody</router-link> |
+      <router-link to="/sandbox">Sandbox</router-link> |
+      <router-link to="/SyaryouDaicho">車両台帳</router-link> |
+      <router-link to="/sample">Sample</router-link> 
     </div>
     <router-view/>
   </div>
@@ -30,3 +34,4 @@
   color: #42b983;
 }
 </style>
+
